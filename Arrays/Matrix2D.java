@@ -1,6 +1,7 @@
 package Arrays;
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //take input a matrix   and search for a given number of x and prints indices
@@ -21,6 +22,9 @@ public class Matrix2D {
     }
 
     //PRINT THE MATRIX using for each loop
+    for (int[] num : arrayMatrix) {
+      System.out.println(Arrays.toString(num));
+    }
 
   }
 
