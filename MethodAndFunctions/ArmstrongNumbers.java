@@ -2,7 +2,7 @@ package MethodAndFunctions;
 
 import java.util.Scanner;
 
-public class ArmstringNumbers {
+public class ArmstrongNumbers {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
