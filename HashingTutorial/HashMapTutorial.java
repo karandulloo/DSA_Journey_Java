@@ -5,10 +5,12 @@ import java.util.*;
 public class HashMapTutorial {
     public static void main(String[] args) {
         int[] nums = {3, 2, 3};
-        majorityElement(nums);
+//        majorityElement(nums);
+        HashMapTutorial newObject = new HashMapTutorial();
+        System.out.println(newObject.majorityElement(nums));
     }
 
-    public static int majorityElement(int[] nums) {
+     int majorityElement(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length - 1; i++) {
             if (map.containsKey(nums[i])) {
